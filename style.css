@@ -1,0 +1,49 @@
+body {
+  background-color: #2c4e72;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#score {
+  color: #fff;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.grid {
+  position: absolute;
+  margin-left: 34vw;
+  margin-top: 20px;
+  width: 560px;
+  height: 500px;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #9897A1;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #2c4e72;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #2c4e72;
+  border-radius: 50%;
+}
